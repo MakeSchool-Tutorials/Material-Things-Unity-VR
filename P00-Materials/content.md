@@ -50,7 +50,7 @@ Most of these maps can be exported by 3D applications when making your model, bu
 >
 Let’s make 5 cubes, and put them all at `0,0,0`. We are going to use a little trick to make a staircase in the middle of the scene.
 >
-Set each cube to be 0.5 higher in the Y than the previous one, and 1 larger in the X and Z. if we start at the bottom we should have `8,1,8`, then `7,1.5,7`,` 6,2,6`, and so on. Put a sphere on the top (position and scale it appropriately) and texture each stair however you like (we used `ground1`).
+Set each cube to be 0.5 higher in the Y than the previous one, and 1 smaller in the X and Z. if we start at the bottom we should have `8,1,8`, then `7,1.5,7`,` 6,2,6`, and so on. Put a sphere on the top (position and scale it appropriately) and texture each stair however you like (we used `ground1`).
 >
 ![Pyramid](assets/image_3.png)
 
